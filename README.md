@@ -53,5 +53,5 @@ python3 train_classifier.py  --id_file=tmp/ch_auto.ids.npy --label_file=tmp/ch_a
 
 测试
 ```bash
-python3 predicting.py --mapping_file=tmp/ch_auto.mapping.pkl --classifier_filename=tmp/models/classifier_1.h5  
+python3 predicting.py --mapping_file=tmp/ch_auto.mapping.pkl --classifier_filename=tmp/models/classifier_1.h5 --num_class=2
 ```

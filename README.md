@@ -13,7 +13,7 @@ conda env create -f env.yml
 
 解压中文维基百科语料
 ```bash
-python -m gensim.scripts.segment\_wiki -i -f /data/zhwiki-latest-pages-articles.xml.bz2 -o tmp/wiki2018-11-14.json.gz
+python -m gensim.scripts.segment_wiki -i -f /data/zhwiki-latest-pages-articles.xml.bz2 -o tmp/wiki2018-11-14.json.gz
 ```
 
 分词维基百科语料

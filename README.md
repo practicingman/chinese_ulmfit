@@ -6,7 +6,7 @@
 [下载预训练的模型](https://drive.google.com/open?id=1Z9b1gVqfFjPaEEuU0Y-XfgsnmHr9yB_m)
 
 
-创建虚拟环境（可以[配置清华conda源](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/)）  
+创建虚拟环境（[可以配置清华conda源](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/)）  
 ```bash
 conda env create -f env.yml
 ```
